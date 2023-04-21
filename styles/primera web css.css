@@ -1,0 +1,71 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: rgb(244, 244, 227);
+    box-shadow: 0px 0px 3px 3px rgb(0,0,0,0.25)
+}
+header p span{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 2.Srem;
+    margin-bottom: 2rem;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+h3{
+    font-weight: 200px;
+    font-size: 1.5rem;
+}
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.tarjeta{
+    box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.25);
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    flex-grow: 1;
+    margin-bottom: 1rem;
+    transition: 200ms;
+    scale: 1;
+}
+.tarjeta:hover{
+    scale: 1.05;
+}
+#contenedor-tarjeta{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tarjeta p{
+    background-color: beige;
+    padding: 20px;
+}
+ul{
+    background-color: beige;
+    padding: 20px;
+    margin-bottom: 1rem;
+}
+li{
+    font-weight: bold;
+    list-style-type: disc;
+}
+footer{
+    padding: 1rem;
+    margin-top: auto;
+    background-color: rgb(244, 244, 227);
+}
